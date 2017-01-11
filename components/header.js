@@ -6,7 +6,7 @@ var Header = React.createClass({
 				<img src="./img/logo.png" style={Styles.himg}/>
 				<div style={Styles.inputBox}>
 					<input type="text" style={Styles.input}/>
-					<i></i>
+					<span className="iconfont">&#xe600;</span>
 				</div>
 			</div>
 		)

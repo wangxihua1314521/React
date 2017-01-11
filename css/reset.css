@@ -20,7 +20,14 @@ a:hover { color: #f60; text-decoration:none; }
 }
 .clearfix{zoom:1;/*这个转为解决IE6的bug的*/}
 
-
+@font-face {
+  font-family: 'iconfont';  /* project id 219560 */
+  src: url('//at.alicdn.com/t/font_4ytcw9cve0jrwwmi.eot');
+  src: url('//at.alicdn.com/t/font_4ytcw9cve0jrwwmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_4ytcw9cve0jrwwmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_4ytcw9cve0jrwwmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_4ytcw9cve0jrwwmi.svg#iconfont') format('svg');
+}
 
 
 
@@ -35,9 +42,17 @@ a:hover { color: #f60; text-decoration:none; }
 
 .iconfont {
   font-family:"iconfont" !important;
-  font-size:16px;
+  font-size:26px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 219560 */
+  src: url('//at.alicdn.com/t/font_o5ohwke4pweqxgvi.eot');
+  src: url('//at.alicdn.com/t/font_o5ohwke4pweqxgvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_o5ohwke4pweqxgvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_o5ohwke4pweqxgvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_o5ohwke4pweqxgvi.svg#iconfont') format('svg');
 }

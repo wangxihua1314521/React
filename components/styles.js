@@ -12,7 +12,7 @@ var styles = {
 	},
 	inputBox:{
 		"width":"70%",
-		"height":".65rem",
+		"height":".6rem",
 		"display":"flex",
 		"justifyContent":"center",
 		"alignItems":"center",
@@ -21,7 +21,8 @@ var styles = {
 	},
 	input:{
 		"border":"0",
-		"height":".5rem"
+		"height":".5rem",
+		"marginRight":".8rem"
 	},
 	footer:{
 		"width":"100%",
@@ -37,6 +38,9 @@ var styles = {
 	footerDiv:{
 		"width":"25%",
 		"textAlign":"center"
+	},
+	bannerimg:{
+		"width":"100%"
 	}
 }
 module.exports = styles;
