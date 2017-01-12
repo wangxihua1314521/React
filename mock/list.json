@@ -1,0 +1,69 @@
+{
+    "jspt":[
+	    {
+	        "img01":"./img/list1.jpg",
+	        "img02":"./img/list03.jpg"
+	    },
+	    {
+	        "img01":"./img/list2.jpg",
+	        "img02":"./img/list04.jpg"
+	    }],
+	"lists":[
+		{
+			"url":"./img/img01.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img02.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img03.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img04.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img05.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img06.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img07.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		},
+		{
+			"url":"./img/img08.png",
+			"tip":"【礼盒】53°国台好礼礼盒 500ml*2（礼盒装）",
+			"price":"￥489"
+		}],
+	"logo":[
+		{
+			"url":"./img/img09.png",
+			"title":"茅台"
+		},
+		{
+			"url":"./img/img10.png",
+			"title":"茅五粮液台"
+		},
+		{
+			"url":"./img/img11.png",
+			"title":"剑南春"
+		},
+		{
+			"url":"./img/img12.png",
+			"title":"泸州老窖"
+		}]
+}
