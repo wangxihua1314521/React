@@ -1,11 +1,11 @@
-var LayOut = require("../components/layout");
-var Header = require("../components/header");
+var LayOut = require("./components/layout");
+var Header = require("./components/header");
 
-var Banner = require("../components/banner");
-var Main = require("../components/main");
-var List = require("../components/list");
+var Banner = require("./components/banner");
+var Main = require("./components/main");
+var List = require("./components/list");
 
-var Footer = require("../components/footer");
+var Footer = require("./components/footer");
 
 
 

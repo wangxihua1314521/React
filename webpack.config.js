@@ -2,10 +2,10 @@ var webpack = require('webpack');
 var ET = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry:  './src/app.js',
+  entry: __dirname + '/src/app.js',
 
   output: {
-    path: './bundle/',
+    path: __dirname + '/bundle/',
     // filename: 'bundle-[hash].js'
     filename: 'bundle.js'
   },
@@ -27,13 +27,11 @@ module.exports = {
 //      //   "presets": ['es2015']
 //      // }
 //    },
-			
-			{
+      {
         test: /\.js$/,
-        // loader: 'style!css!sass'
         loader: 'jsx-loader'
       },
-      
+
       {
         test: /\.scss$/,
         // loader: 'style!css!sass'
@@ -43,19 +41,8 @@ module.exports = {
       {
         test: /\.html$/,
         loader: 'string'
-      },
-
-      {
-        test: /\.vue$/,
-        loader: 'vue'
       }
     ]
-  },
-
-  vue: {
-    loaders: {
-      js: 'babel-loader?presets[]=es2015'
-    }
   },
 	
   devServer: {
