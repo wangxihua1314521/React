@@ -1,0 +1,94 @@
+#classify-list{
+    header{
+        width:100%;
+        height: .8rem;
+        background: #e3393c;
+        display: flex;
+        justify-content: space-around;
+        i{
+            color:#fff;
+            font-size:.3rem;
+        }
+        div{
+            width:4.62rem;
+            height:.5rem;
+            position: relative;
+            
+            input{
+                height: 100%;
+                width:100%;
+                margin:0 .1rem;
+                &::-webkit-input-placeholder{
+                    font-size:.2rem;
+                    color:#000;                                                                 
+                }                                       
+            }
+            span{
+                color:#e23336;
+                position:absolute;
+                right: 0.1rem;
+                top:0;
+                font-size:.3.5rem;
+            }
+        }
+        b{
+            font-weight: bold;
+            color:#fff;
+        }
+    }
+    nav{
+        width: 100%;
+        border-bottom:#ccc 0.01rem solid;
+        box-shadow:0 .01rem .01rem #000000;
+        ul{
+            display: flex;
+            
+            li{
+                flex:1;
+                height: .78rem;
+                border-right:#ccc solid 1px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:last-child{
+                    border:none;
+                }
+                
+            }
+        }
+       
+    }//nav end
+    article{
+        background: #efeff4;
+        display: flex;
+        flex-wrap: wrap;
+        padding-right:.2rem;
+        figure{
+            border-radius: .03rem;
+            width:2.7rem;
+            height:4rem;
+            padding:.1rem;
+            background: #fff;
+            margin-left:.2rem;
+            margin-top:.2rem;
+            img{
+                width:100%;
+                display: block;
+                
+            }
+            figcaption{
+                border-bottom:#ccc solid 1px;
+                font-size:.24rem;
+                line-height: .36rem;
+                margin-top: .1rem;
+                
+            }
+            b{
+                color:#e3393c;
+                font-size: .2rem;
+                margin-left:.2rem;
+            }
+            
+        }
+    }//article end
+}//#classify-list end

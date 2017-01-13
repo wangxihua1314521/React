@@ -1,0 +1,9 @@
+@import "./common/reset.css";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./layout/layout.scss";
+@import "./home/home.scss";
+@import "./classify/classify-list.scss";
+body,html,#app{
+    height: 100%;
+}
