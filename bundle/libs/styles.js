@@ -119,5 +119,65 @@ var styles = {
 		"borderRadius":"50%",
 		"background":"#f10",
 		"marginRight":".2rem"
+	},
+	flbox:{
+		"marginTop":".8rem",
+		"height": "8.5rem",
+		"display":"flex",
+		"justifyContent":"center",
+		"overflow":"hidden",
+		"boxSizing":"border-box"
+	},
+	ulbox:{
+		"width":"25%",
+		"height":"8.52rem",
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center",
+		"flexDirection":"column",
+		"background":"#f8f8f8"
+	},
+	divRight:{
+		"width":"75%",
+		"overflowY":"scroll",
+		"height":"100%",
+		"background":"#fff"
+	},
+	libox:{
+		"width":"100%",
+		"flex":1,
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center",
+    	"borderTop": "1px solid #eaeaea",
+    	"borderRight": "1px solid #eaeaea"
+	},
+	icoboxs:{
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center"
+	},
+	icobox:{
+		"flex":1,
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center",
+		"flexDirection":"column",
+		"background":"#f8f8f8",
+	    "margin": "0 .1rem .1rem 0",
+	    "paddingTop":".2rem"
+	},
+	tit:{
+		"height":".5rem",
+		"paddingLeft":".4rem",
+		"lineHeight":".5rem",
+		"color":"#bbbbbb"
+	},
+	tip:{
+		"padding":".1rem 0"
+	},
+	imgs:{
+		"width":"50px",
+		"height":"50px"
 	}
 }
