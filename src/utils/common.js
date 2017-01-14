@@ -34,6 +34,5 @@ const initialSize = ()=>{
 		size();
 	})
 }
-
 export {packageSwiper,initialSize};
 

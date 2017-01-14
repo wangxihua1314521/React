@@ -1,17 +1,19 @@
 //引入样式
 import "./styles/app.scss";
 //react全局样式
-
 //引入组件
 //购物车
 import Cart from "./components/cart/cart";
+//注册
+import Register from "./components/register/register";
 //分类页
 import Classify from "./components/classify/classify";
 //中部
 import Home from "./components/home/home";
 //头尾部
 import Layout from "./components/layout/layout";
-
+//订单
+import Indent from "./components/indent/indent";
 //个人中心
 import Personal from "./components/personal/personal";
 //引入初始size
@@ -38,7 +40,16 @@ const routes = [{
 },{
 	path:"/cart",
 	component:Cart
-},{
+},
+{
+	path:"/register",
+	component:Register
+},
+{
+	path:"/indent",
+	component:Indent
+},
+{
 	path:"/personal",
 	component:Personal
 }]

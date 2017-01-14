@@ -1,0 +1,189 @@
+.indent{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .add{
+        width: 100%;
+        height: .9rem;
+        line-height: .9rem;
+        background: #fff;
+        padding-left: .2rem;
+        span{
+            color: #f10;
+        }
+    }
+    .pay{
+        width: 100%;
+        height: .7rem;
+        line-height: .7rem;
+        background: #fff;
+        margin-top: .2rem;
+        padding-left: .2rem;
+        span{
+            display: inline-block;
+            &.zf{
+                float: right;
+                padding-right: .4rem;
+                padding-left: 0;
+            }
+        }
+    }
+    .indentList{
+        width: 100%;
+        display: flex;
+        .imgleft{
+            padding: .25rem .16rem;
+            img{
+                width: 90%;
+            }
+        }
+        .numb{
+            width: 90%;
+            text-align: right;
+        }
+    }
+    .main{
+        width: 100%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .yhj{
+            width: 100%;
+            height: .8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                display: inline-block;
+                flex: 1;
+                padding-left: .2rem;
+                &.zq{
+                    text-align: right;
+                    padding-left: 0;
+                    padding-right: .2rem;
+                    em{
+                        color: #f10;
+                    }
+                }
+            }
+        }
+        .qm{
+            width: 100%;
+            height: .8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .doing{
+                width: 35%;
+//              padding-left: .2rem;
+                text-align: left;
+            }
+            input{
+                margin-left: .1rem;
+                border: 1px solid #ccc;
+                width: 38%;
+                height: .6rem;
+                border-radius: .1rem;
+            }
+            .qd{
+                width: 15%;
+                text-align: center;
+                height: .6rem;
+                line-height: .6rem;
+                background: red;
+                color: #fff;
+                margin-left: .3rem;
+                border-radius: .1rem;
+            }
+        }
+        .ly{
+            width: 100%;
+            padding-left: .2rem;
+            height: .6rem;
+            line-height: .6rem;
+            border-bottom: 1px solid #eaeaea;
+            .xt{
+                border: 0;
+                padding-left: .1rem;
+            }
+        }
+        .online{
+            display: inline-block;
+            height: .4rem;
+            line-height: .4rem;
+            border: 1px dashed blue;
+            color: blue;
+            font-size: 12px;
+        }  
+    }
+    .zk{
+        width: 100%;
+        height: .8rem;
+        line-height: .8rem;
+        background: #fff;
+        margin-top: .2rem;
+        padding-left: .2rem;
+        em{
+            color: #f10;
+        }
+    }
+    .yhj{
+        width: 100%;
+        height: .8rem;
+        line-height: .8rem;
+        background: #fff;
+        margin-top: .2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            display: inline-block;
+            flex: 1;
+            padding-left: .2rem;
+            &.zq{
+                text-align: right;
+                padding-left: 0;
+                padding-right: .2rem;
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: .9rem;
+        line-height: .9rem;
+        background: #f5f7f9;
+        border-top: 1px solid #ddd;
+        color: #000;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .price{
+            height: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span{
+                display: block;
+                height: .45rem;
+                line-height: .45rem;
+                text-align: right;
+                padding-right: .2rem;
+                em{
+                    color: #f10;
+                }
+            }
+        }
+        .btn{
+            width: 1.8rem;
+            background: #f92a20;
+            color: #fff;
+            font-size: .28rem;
+            text-align: center;
+        }
+    }
+}
