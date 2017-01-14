@@ -1,11 +1,19 @@
 footer{
-    width:100%;
-    height:1rem;
-    background:#f4f6f8;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    width: 100%;
+    height: .90rem;
+    background: #2a2a2e;
+    display: flex;
     a{
-        
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        i{
+            margin-bottom: .16rem;
+            font-size:.40rem !important;
+        }
+        color:#fff;
+        font-size:.12rem;
     }
 }

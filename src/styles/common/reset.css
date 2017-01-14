@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td,header,nav,section,article,summary,figure,figcaption,footer { margin:0; padding:0; }
-body { font:14px/20px "微软雅黑"; color:#333; background:#fff;}
+body { font:0.14rem/0.24rem "微软雅黑"; color:#333; background:#fff;}
 fieldset, img { border:0; }
 ol, ul { list-style:none; }
 h1, h2, h3, h4, h5, h6{ font-size:100%; }
@@ -40,9 +40,9 @@ a:hover { color: #f60; text-decoration:none; }
 
 @font-face {
   font-family: 'iconfont';  /* project id 219762 */
-  src: url('//at.alicdn.com/t/font_usqmeswdjy4g3nmi.eot');
-  src: url('//at.alicdn.com/t/font_usqmeswdjy4g3nmi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_usqmeswdjy4g3nmi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_usqmeswdjy4g3nmi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_usqmeswdjy4g3nmi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_sdntntdpghaug14i.eot');
+  src: url('//at.alicdn.com/t/font_sdntntdpghaug14i.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_sdntntdpghaug14i.woff') format('woff'),
+  url('//at.alicdn.com/t/font_sdntntdpghaug14i.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_sdntntdpghaug14i.svg#iconfont') format('svg');
 }

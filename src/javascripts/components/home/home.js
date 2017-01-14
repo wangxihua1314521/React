@@ -7,6 +7,8 @@ class Home extends React.Component{
 		return (
 			<div className="home">
 				<Banner/>
+				<Main/>
+				<HomeList/>
 			</div>
 		)
 	}

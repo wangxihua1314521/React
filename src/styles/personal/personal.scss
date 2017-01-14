@@ -1,0 +1,48 @@
+#personal{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    header{
+        height: 3.64rem;
+        background: #e3393c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        figure{
+            width:1.26rem;
+            height:1.26rem;
+            border-radius: 50%;
+            background: #fff;
+            img{
+                width: 100%;
+                height: 100%;
+                border:none;
+            }
+        }
+        span{
+            color:#fff;
+        }
+        div{
+            dl{
+                dt{
+                    
+                }
+                dd{
+                    
+                }
+            }
+            span{
+                height: .36rem;
+                display:inline-block;
+                width:1px;
+                border-right:#fff solid 1px;
+            }
+        }
+    }
+    #liebiao{
+        flex:1;
+        overflow-y: scroll;
+    }
+    
+}//#personal end
