@@ -5,6 +5,8 @@ import "./styles/app.scss";
 import Cart from "./javascripts/components/cart/cart";
 //分类页
 import Classify from "./javascripts/components/classify/classify";
+//详情页
+import Details from "./javascripts/components/classify/details";
 //中部
 import Home from "./javascripts/components/home/home";
 //头尾部
@@ -38,6 +40,9 @@ const routes = [{
 },{
 	path:"/personal",
 	component:Personal
+},{
+	path:"/details",
+	component:Details
 }]
 
 

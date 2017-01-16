@@ -1,5 +1,5 @@
 function packageSwiper(id){
-		var id = new Swiper('#'+id, {
+		return new Swiper('#'+id, {
 			autoplay: 5000,//可选选项，自动滑动
 			initialSlide :0,//初始索引
 			direction : 'horizontal',//滑动方向水平|垂直vertical
@@ -21,8 +21,8 @@ function packageSwiper(id){
 			loop : true,//循环
 			freeMode : false
 		})//Swiper end
-
-}//mySwiper end
+		
+}//packageSwiper end
 const initialSize = ()=>{
 	function size(){
 		document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4 + 'px';
