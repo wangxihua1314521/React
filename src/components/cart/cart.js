@@ -106,7 +106,7 @@ class Cart extends React.Component{
 							<span>不含邮费</span>
 						</li>
 						<li>
-							<Link to="/register">
+							<Link to="/register" className="fff">
 								结算
 							</Link>
 						</li>

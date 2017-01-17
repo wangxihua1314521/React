@@ -38,8 +38,7 @@ var styles = {
 	},
 	footerDiv:{
 		"width":"25%",
-		"textAlign":"center",
-		"color":"#666"
+		"textAlign":"center"
 	},
 	bannerimg:{
 		"width":"100%"

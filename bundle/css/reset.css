@@ -64,6 +64,12 @@ a:hover { color: #f60; text-decoration:none; }
 	background: #fff;
 	border-left: 4px solid #f10;
 }
+.fff{
+	color: #fff;
+}
+.actives{
+	color: #e73641;
+}
 .section{
 	background: #f8f8f8;
 }

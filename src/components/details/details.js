@@ -128,7 +128,7 @@ class Details extends React.Component{
 							</li>
 						</Link>
 						<li>加入购物车</li>
-						<li><Link to="/indent">立即购买</Link></li>
+						<li><Link to="/indent" className="fff">立即购买</Link></li>
 						<li>
 							<i className="iconfont">&#xe626;</i>
 							收藏

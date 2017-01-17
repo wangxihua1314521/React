@@ -18,6 +18,7 @@
                 height: 100%;
                 width:100%;
                 margin:0 .1rem;
+                border: 0;
                 &::-webkit-input-placeholder{
                     font-size:.2rem;
                     color:#000;                                                                 
@@ -65,7 +66,7 @@
         padding-right:.2rem;
         figure{
             border-radius: .03rem;
-            width:2.7rem;
+            width:2.9rem;
             height:4rem;
             padding:.1rem;
             background: #fff;
@@ -81,7 +82,7 @@
                 font-size:.24rem;
                 line-height: .36rem;
                 margin-top: .1rem;
-                
+                color: #666;
             }
             b{
                 color:#e3393c;
