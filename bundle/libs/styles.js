@@ -22,7 +22,8 @@ var styles = {
 	input:{
 		"border":"0",
 		"height":".5rem",
-		"marginRight":".8rem"
+		"width":"80%",
+		"marginBottom":0
 	},
 	footer:{
 		"width":"100%",
@@ -37,7 +38,8 @@ var styles = {
 	},
 	footerDiv:{
 		"width":"25%",
-		"textAlign":"center"
+		"textAlign":"center",
+		"color":"#666"
 	},
 	bannerimg:{
 		"width":"100%"
@@ -121,8 +123,8 @@ var styles = {
 		"marginRight":".2rem"
 	},
 	flbox:{
-		"marginTop":".8rem",
-		"height": "8.5rem",
+		"paddingTop":".8rem",
+		"height": "9.5rem",
 		"display":"flex",
 		"justifyContent":"center",
 		"overflow":"hidden",
@@ -174,7 +176,8 @@ var styles = {
 		"color":"#bbbbbb"
 	},
 	tip:{
-		"padding":".1rem 0"
+		"padding":".1rem 0",
+		"color":"#666"
 	},
 	imgs:{
 		"width":"50px",

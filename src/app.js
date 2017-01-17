@@ -4,10 +4,16 @@ import "./styles/app.scss";
 //引入组件
 //购物车
 import Cart from "./components/cart/cart";
+//详情页
+import Details from "./components/details/details";
+//登录
+import Login from "./components/login/login";
 //注册
 import Register from "./components/register/register";
 //分类页
 import Classify from "./components/classify/classify";
+//列表页
+import ClassifyList from "./components/classify/classify-list"; 
 //中部
 import Home from "./components/home/home";
 //头尾部
@@ -37,7 +43,12 @@ const routes = [{
 			component:Classify
 		}
 	]
-},{
+},
+{
+	path:"/classify-list",
+	component:ClassifyList
+},
+{
 	path:"/cart",
 	component:Cart
 },
@@ -46,12 +57,20 @@ const routes = [{
 	component:Register
 },
 {
+	path:"/login",
+	component:Login
+},
+{
 	path:"/indent",
 	component:Indent
 },
 {
 	path:"/personal",
 	component:Personal
+},
+{
+	path:"/details",
+	component:Details
 }]
 
 ReactDOM.render(

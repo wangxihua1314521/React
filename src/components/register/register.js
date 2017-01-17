@@ -1,5 +1,69 @@
 import {Link} from "react-router";
-class Register extends React.Component{
+var Register = React.createClass({
+	getInitialState:function() {
+		return {
+			phone : "",
+			yzm:"",
+			password:"",
+			repassword:"",
+			phoneyzm:""
+		}
+	},
+	handlePhone:function(e){
+		var value = e.target.value;
+		var error="";
+		var reg = /^[1][358][0-9]{9}$/;
+		if(!reg.test(value)){
+			error = "手机号错误，请重新输入"
+		}
+		this.setState({
+			value:error
+		})
+	},
+	handleYzm:function(e){
+		var value = e.target.value;
+		var error="";
+		var reg = /^[1][358][0-9]{9}$/;
+		if(!reg.test(value)){
+			error = "手机号错误，请重新输入"
+		}
+		this.setState({
+			value:error
+		})
+	},
+	handlePassword:function(e){
+		var value = e.target.value;
+		var error="";
+		var reg = /^[1][358][0-9]{9}$/;
+		if(!reg.test(value)){
+			error = "手机号错误，请重新输入"
+		}
+		this.setState({
+			value:error
+		})
+	},
+	handleRepassword:function(e){
+		var value = e.target.value;
+		var error="";
+		var reg = /^[1][358][0-9]{9}$/;
+		if(!reg.test(value)){
+			error = "手机号错误，请重新输入"
+		}
+		this.setState({
+			value:error
+		})
+	},
+	handlePhoneyzm:function(e){
+		var value = e.target.value;
+		var error="";
+		var reg = /^[1][358][0-9]{9}$/;
+		if(!reg.test(value)){
+			error = "手机号错误，请重新输入"
+		}
+		this.setState({
+			value:error
+		})
+	},
 	render(){
 		return (
 			<div className="cart">
@@ -12,29 +76,29 @@ class Register extends React.Component{
 				<form>
 					<div className="name">
 						<label>手机号</label>
-						<input type="text" placeholder="请输入手机号"/>
+						<input type="text" placeholder="请输入手机号" id="phone" value={this.state.phone} onChange={this.handlePhone}/>
 					</div>
 					<div className="password">
 						<label>验证码</label>
-						<input type="text" placeholder="请输入验证码"/>
+						<input type="text" placeholder="请输入验证码" id="yzm" value={this.state.yzm} onChange={this.handleYzm}/>
 						<a className="photo"><img src="../../../img/Code.png" /></a>
 					</div>
 					<div className="password">
-						<input type="text" placeholder="请输入密码" className="place"/>
+						<input type="text" placeholder="请输入密码" className="place" id="password" value={this.state.password} onChange={this.handlePassword}/>
 					</div>
 					<div className="password">
-						<input type="text" placeholder="请再次输入密码" className="place"/>
+						<input type="text" placeholder="请再次输入密码" className="place" id="repassword" value={this.state.repassword} onChange={this.handleRepassword}/>
 					</div>
 					<div className="password">
-						<input type="text" placeholder="请输入手机验证码" className="place"/>
+						<input type="text" placeholder="请输入手机验证码" className="place" id="phoneyzm" value={this.state.phoneyzm} onChange={this.handlePhoneyzm}/>
 						<label className="getm">获取验证码</label>
 					</div>
 				</form>
-				<Link to="Indent">
+				<Link to="/login">
 					<button className="btn">注册</button>
 				</Link>
 			</div>
 		)
 	}
-}
-export default Register;
+})
+module.exports = Register;

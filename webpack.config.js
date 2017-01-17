@@ -41,7 +41,8 @@ module.exports = {
                     ],
                     plugins: [
                         'transform-runtime',
-                        'transform-es2015-classes'
+                        'transform-es2015-classes',
+                        'transform-class-properties'
                     ]
                 }
             }

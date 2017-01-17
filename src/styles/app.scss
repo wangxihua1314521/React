@@ -5,8 +5,11 @@
 @import "./home/home.scss";
 @import "./classify/classify-list.scss";
 @import "./cart/cart.scss";
+@import "./login/login.scss";
 @import "./register/register.scss";
 @import "./indent/indent.scss";
+@import "./personal/personal.scss";
+@import "./details/details.scss";
 body,html,#app{
     height: 100%;
 }

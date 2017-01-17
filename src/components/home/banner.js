@@ -31,7 +31,7 @@ var Banner = React.createClass({
 			}
 		}
 		return (
-			<div className="swiper-container">
+			<div className="swiper-container" id="swiper-container-id">
 			    <div className="swiper-wrapper">
 			        {arr}
 			    </div>
