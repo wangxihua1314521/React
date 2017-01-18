@@ -1,0 +1,42 @@
+var styles = {
+	header:{
+		"height":"1rem",
+		"width":"100%",
+		"background":"#b60005",
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center"
+	},
+	himg:{
+		"width":"20%"
+	},
+	inputBox:{
+		"width":"70%",
+		"height":".65rem",
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center",
+		"background":"#fff",
+		"borderRadius":".15rem"
+	},
+	input:{
+		"border":"0",
+		"height":".5rem"
+	},
+	footer:{
+		"width":"100%",
+		"height":"1rem",
+		"position":"fixed",
+		"bottom":"0",
+		"left":"0",
+		"background":"#f4f6f8",
+		"display":"flex",
+		"justifyContent":"center",
+		"alignItems":"center"
+	},
+	footerDiv:{
+		"width":"25%",
+		"textAlign":"center"
+	}
+}
+module.exports = styles;
