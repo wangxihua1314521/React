@@ -5,7 +5,7 @@ class DetailsBanner extends React.Component{
 		return (
 		    <div className="swiper-slide">
 		    	<img src={this.props.src} alt="" className="swiper-lazy" />
-		    	<div className="swiper-lazy-preloader"></div>
+
 		    </div>
 		)
 	}
