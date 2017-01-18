@@ -1,3 +1,5 @@
+@import "../common/common.scss";
+
 %em{
     display: block;
     width:.36rem;
@@ -30,6 +32,8 @@
             color:#fff;
             margin-left: .2rem;
             font-size:.2rem;
+            position: relative;
+            @extend %lianjie;
             
         }
     }
@@ -84,12 +88,12 @@
                             width: 100%;
                         }
                         form{
+                            width: 1.78rem;
+                            height: .55rem;
                             border:#b2b2b2 solid 1px;
                             border-radius:.06rem;
                             display: flex;
                             justify-content: flex-start;
-                            width: 1.72rem;
-                            height: .5rem;
                             button{
                                 display: inline-block;
                                 width: .54rem;
@@ -99,11 +103,13 @@
                             }
                             input{
                                 display: inline-block;
+                                padding:0;
+                                margin:0;
                                 width: .64rem;
+                                height: .50rem;
                                 border:none;
                                 border-left:#b2b2b2 solid 1px;
                                 border-right:#b2b2b2 solid 1px;
-                                height: .50rem;
                                 background: #fff;
                                 text-align: center;
                             }

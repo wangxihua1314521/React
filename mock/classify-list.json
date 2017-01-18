@@ -1,45 +1,54 @@
 [
 	{
+		"id":"i01",
 		"src":"/img/l-1.png",
 		"introduction":"马克思为酒庄-海岸加州赤霞珠干红葡萄酒750ml",
 		"price":"¥279.00"
 	},
 	{
+		"id":"i02",
 		"src":"/img/l-2.png",
 		"introduction":"马克思为酒庄-美国加利福尼亚赤霞珠干红葡萄酒750ml",
 		"price":"¥399.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-3.png",
 		"introduction":"马克思为酒庄庄园长相思干白葡萄酒750ml",
 		"price":"¥386.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-4.png",
 		"introduction":"马克思为酒庄相思加州赤霞珠干红葡萄酒750ml",
 		"price":"¥680.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-5.png",
 		"introduction":"马克思为酒庄-海岸加州赤霞珠干红葡萄酒750ml",
 		"price":"¥980.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-6.png",
 		"introduction":"马克思为酒庄加利福尼亚加州赤霞珠干红葡萄酒750ml",
 		"price":"¥239.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-7.png",
 		"introduction":"马克思为酒庄hong海岸加州赤霞珠干红葡萄酒750ml",
 		"price":"¥290.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-8.png",
 		"introduction":"马克思为酒庄-海岸jiu加州赤霞珠干红葡萄酒750ml",
 		"price":"¥256.00"
 	},
 	{
+		"id":"i01",
 		"src":"/img/l-9.png",
 		"introduction":"马克思为酒庄-海岸啊啊啊啊啊加州赤霞珠干红葡萄酒750ml",
 		"price":"¥1000.00"

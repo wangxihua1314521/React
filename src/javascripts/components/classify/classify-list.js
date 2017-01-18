@@ -1,4 +1,5 @@
 import ClassifyListChild from "./classify-listChild";
+import {Link} from "react-router";
 
 class ClassifyList extends React.Component{
 	constructor(...args){
@@ -30,15 +31,29 @@ class ClassifyList extends React.Component{
 		if(result){
 			for(let i=0; i<result.length; i++){			//console.log(result[i])
 				article.push(
-					<ClassifyListChild info={result[i]}/>
+					<ClassifyListChild info={result[i]} po={this.props.location.pathname}/>
 				)
-				
+				                                                                                                                             
 			}
 		}
+		
+		const ls = this.props.location.query.originPath;		
+		console.log(ls+".............")		
+		if(ls != undefined ){
+			console.log(ls+">>>>>>>>")
+			sessionStorage.setItem(linkback,ls);		
+		}
+		let linkback = sessionStorage.getItem(linkback);	
+		console.log(linkback+"<<<<<")
+		
 		return (
 			<div id="classify-list">
 				<header>
-					<i className="iconfont">&#xe7ec;</i>
+					<i className="iconfont">
+						&#xe7ec;
+						<Link to={linkback} className="lianjie">
+						</Link>
+					</i>
 					<div>
 						<input type="text" placeholder="搜索全部商品..."/>
 						<span className="iconfont">&#xe600;</span>

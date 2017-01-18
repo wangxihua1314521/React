@@ -3,9 +3,9 @@ import {packageSwiper} from "../../utils/common";
 class DetailsBanner extends React.Component{
 	render(){
 		return (
-		    <div className="swiper-slide swiper-lazy">
-		    	<img src={this.props.src} alt="" />
-		    	//<div className="swiper-lazy-preloader"></div>
+		    <div className="swiper-slide">
+		    	<img src={this.props.src} alt="" className="swiper-lazy" />
+		    	<div className="swiper-lazy-preloader"></div>
 		    </div>
 		)
 	}
@@ -28,13 +28,11 @@ class DetailsBanner extends React.Component{
 		//d_banner.updateClasses();
 		//d_banner.onResize();
 		//d_banner.lockSwipes();
-		
-		let a = packageSwiper("d_banner");
-		a.updatePagination();
-		a.updateClasses();
-		a.onResize();
-		console.log(a)
-		//a.lockSwipes();
+//		if(a){
+//			a = "";
+//		}
+		let a = packageSwiper("#d_banner");
+		console.log(a.activeIndex);
 		
 	}
 }

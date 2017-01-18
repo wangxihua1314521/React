@@ -9,10 +9,7 @@ class Footer extends React.Component{
 	render(){
 		
 		return(
-			<footer>
-			
-				{this.props.children}
-				
+			<footer>				
 				<Link to="/home">
 					<i className="iconfont">&#xe729;</i>首页
 				</Link>

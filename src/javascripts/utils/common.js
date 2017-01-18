@@ -1,5 +1,5 @@
-function packageSwiper(id){
-		return new Swiper('#'+id, {
+function packageSwiper(name){
+		return new Swiper(name, {
 			autoplay: 5000,//可选选项，自动滑动
 			initialSlide :0,//初始索引
 			direction : 'horizontal',//滑动方向水平|垂直vertical

@@ -6,7 +6,7 @@ class Header extends React.Component{
 			<header>
 				<img src="/img/logo.png"/>
 				<div>
-					<input type="text"/>
+					<input type="text" name="search"/>
 					<span className="iconfont">&#xe600;</span>
 				</div>
 			</header>

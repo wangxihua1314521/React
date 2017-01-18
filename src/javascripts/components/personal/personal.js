@@ -6,9 +6,9 @@ class Personal extends React.Component{
 		return (
 			<div id="personal">
 				<header>
-					<div>
+					<div className="p_h_d">
 						<figure>
-							<img src=""/>
+							<img/>
 						</figure>
 						<span>15832666666</span>
 					</div>

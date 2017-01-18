@@ -1,34 +1,89 @@
 {
-	"ban":[
-		"/img/d-b-01.png",
-		"/img/d-b-02.png",
-		"/img/d-b-03.png",
-		"/img/d-b-04.png",
-		"/img/d-b-05.png"
-	],
-	"introduction":{
-		"price":"¥6948",
-		"del":"¥9999",
-		"title":"53°茅台飞天 500ml (6瓶装)",
-		"warn":"[特价商品,不能使用优惠券]茅台玉液,传世飞天",
-		"discount":"7张可领优惠券",
-		"manemian":"满额99免运费",
-		"redpacket":"满99送3个代金红包"
+	"i01":{
+		"ban":[
+			"/img/d-b-01.png",
+			"/img/d-b-02.png",
+			"/img/d-b-03.png",
+			"/img/d-b-04.png",
+			"/img/d-b-05.png"
+		],
+		"introduction":{
+			"price":"¥6948",
+			"del":"¥9999",
+			"title":"53°茅台飞天 500ml (6瓶装)",
+			"warn":"[特价商品,不能使用优惠券]茅台玉液,传世飞天",
+			"discount":"7张可领优惠券",
+			"manemian":"满额99免运费",
+			"redpacket":"满99送3个代金红包"
+		},
+		"comment":{
+			"total":"56",
+			"com":[
+				{
+					"name":"13392637982",
+					"content":"好评!赞一个",
+					"time":"2016.10.12 12.50.23"
+				},
+				{
+					"name":"13792688982",
+					"content":"差评!赞一个",
+					"time":"2016.10.12 16.50.23"
+				}
+			]
+		},
+		"information":[
+			"/img/d-01.jpg",
+			"/img/d-02.jpg",
+			"/img/d-03.jpg",
+			"/img/d-04.jpg",
+			"/img/d-05.jpg",
+			"/img/d-06.jpg",
+			"/img/d-07.jpg",
+			"/img/d-08.jpg"
+		]
 	},
-	"comment":{
-		"total":"56",
-		"name":"13392637982",
-		"content":"好评!赞一个",
-		"time":"2016.10.12 12.50.23"
-	},
-	"information":[
-		"/img/d-01.jpg",
-		"/img/d-02.jpg",
-		"/img/d-03.jpg",
-		"/img/d-04.jpg",
-		"/img/d-05.jpg",
-		"/img/d-06.jpg",
-		"/img/d-07.jpg",
-		"/img/d-08.jpg"
-	]
+	"i02":{
+		"ban":[
+			"/img/d-b-01.png",
+			"/img/d-b-02.png",
+			"/img/d-b-03.png",
+			"/img/d-b-04.png",
+			"/img/d-b-05.png"
+		],
+		"introduction":{
+			"price":"¥6948",
+			"del":"¥9999",
+			"title":"53°茅台飞天 500ml (6瓶装)",
+			"warn":"[特价商品,不能使用优惠券]茅台玉液,传世飞天",
+			"discount":"7张可领优惠券",
+			"manemian":"满额99免运费",
+			"redpacket":"满99送3个代金红包"
+		},
+		"comment":{
+			"total":"56",
+			"com":[
+				{
+					"name":"13392637982",
+					"content":"好评!赞一个",
+					"time":"2016.10.12 12.50.23"
+				},
+				{
+					"name":"13792688982",
+					"content":"差评!赞一个",
+					"time":"2016.10.12 16.50.23"
+				}
+			]
+		},
+		"information":[
+			"/img/d-01.jpg",
+			"/img/d-02.jpg",
+			"/img/d-03.jpg",
+			"/img/d-04.jpg",
+			"/img/d-05.jpg",
+			"/img/d-06.jpg",
+			"/img/d-07.jpg",
+			"/img/d-08.jpg"
+		]
+	}
+
 }

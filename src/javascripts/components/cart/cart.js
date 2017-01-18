@@ -1,10 +1,14 @@
 //购物车
+import {Link} from "react-router";
+
 class Cart extends React.Component{
 	render(){
 		return (
 			<div id="cart">
 				<header>
-					<i className="iconfont">&#xe7ec;</i>
+					<i className="iconfont">&#xe7ec;
+						<Link to="/details" className="lianjie"></Link>
+					</i>
 					<span>购物车</span>
 				</header>
 				<div className="content">
@@ -38,7 +42,7 @@ class Cart extends React.Component{
 									<p>中酒网手机支架(赠品...</p>
 									<form>
 										<button>-</button>
-										<input type="text" value="1"/>
+										<input type="number" value="1"/>
 										<button>+</button>
 									</form>
 								</div>

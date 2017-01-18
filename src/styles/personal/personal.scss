@@ -9,10 +9,10 @@
         display: flex;
         flex-direction: column;
         
-        div{
+        .p_h_d{
             width:100%;
             display: flex;
-            flex-direction: column;
+            flex-direction: column !important;
             justify-content: center;
             align-items: center;
             height: initial;
@@ -23,14 +23,15 @@
                 border-radius: 50%;
                 background: #fff;
                 margin-bottom: .2rem;
+                display:inline-block;
                 img{
+                    border-radius: 50%;
                     width: 100%;
                     height: 100%;
-                    border:none;
                 }
             }
             span{
-                
+                position: initial;
                 color:#fff;
             }
             

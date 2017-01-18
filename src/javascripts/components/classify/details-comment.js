@@ -1,25 +1,25 @@
+import DetailsCommentChild from "./details-comment-child";
 
 class DetailsComment extends React.Component{
 	render(){
+		const prop = this.props.dCommentData;
+		const propChild = prop.com;
+		let dCommentChild = [];
+		for(let i=0; i<propChild.length; i++){
+			dCommentChild.push(
+				<DetailsCommentChild propChildData={propChild[i]} />
+			)
+		}
 		return (
 			<div className="details_comment">
 				<summary>
 					商品评价
 					<span>
-						56
+						{prop.total}
 					</span>
 				</summary>
 				<ul>
-					<li>
-						<p>13392617928</p>
-						<p>好评</p>
-						<span>2016.10.12 12.50.23</span>
-					</li>
-					<li>
-						<p>13392617928</p>
-						<p>好评</p>
-						<span>2016.10.12 12.50.23</span>
-					</li>
+					{dCommentChild}
 				</ul>
 				<a>
 					全部评价

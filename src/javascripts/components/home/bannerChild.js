@@ -8,7 +8,7 @@ var BannerChild = React.createClass({
 		)
 	},
 	componentDidMount : function(){
-		packageSwiper("swiperCon");
+		let banswip = packageSwiper("#swiperCon");
 		
 	}
 });

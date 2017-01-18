@@ -1,6 +1,9 @@
 import DetailsBanner from "./details-banner";
 import {packageSwiper} from "../../utils/common";
-
+import DetailsIntroduction from "./details-introduction";
+import DetailsComment from "./details-comment";
+import DetailsInformation from "./details-information";
+import {Link} from "react-router";
 class Details extends React.Component{
 	constructor(...args){
 		super(...args);
@@ -10,35 +13,75 @@ class Details extends React.Component{
 	}
 	componentWillMount(){
 		let _this = this;
+		let {location} = this.props;
+		let {id} = location.query;
+		
 		$.ajax({
 			type:"get",
 			url:this.props.url,
 			async:true,
 			dataType:"json",
 			success:function(res){
+//				console.log(id)
+//				console.log(res)
+//				console.log(res[id])
 				_this.setState({
-					"result":res
+					"result":res[id]
 				})
 			}
 		});
 	}
 	render(){
+		//console.log(this.props.location)
+		//console.log(this.state.result)
 		let data = this.state.result;
 		let dBanner = [];
+		let dIntroduction = [];
+		let dComment = [];
+		let dInformation = [];
+		
 		if(data){
 			let dBannerData = data.ban;
 			for (let i=0; i<dBannerData.length; i++){
 				dBanner.push(
 					<DetailsBanner src={dBannerData[i]} />
 				)
+			};
+			let dIntroductionData = data.introduction;
+			dIntroduction.push(
+				<DetailsIntroduction dIntroductionData={dIntroductionData}/>
+			);
+			let dCommentData = data.comment;
+			dComment.push(
+				
+				<DetailsComment dCommentData={dCommentData} />
+			)
+			let dInformationData = data.information;
+			for (let k=0; k<dInformationData.length; k++){
+				dInformation.push(
+					<DetailsInformation dInformationData={dInformationData[k]} />
+				)
 			}
+				
+				//<DetailsIntroduction dIntroductionData={this.state.result.introduction}/>//这个组件直接放到return中时，//details 组件装载前,请求ajax,组件装载的时候,装载组件中的子组件,子组件拿数据时,ajax还没有执行完,所以拿到一个空的result,所以就报错了,所以要把子组件放到if中,当有数据的时候再装载
+			
+			
+		}//if end
+		let {location} = this.props;
+		//console.log(location)
+		let {originPath} = location.query;
+		if(originPath != undefined){
+			sessionStorage.setItem(oPD,originPath)
 		}
-		
+		let oPD = sessionStorage.getItem(oPD);
 		return(
 			<div id="details">
 				<header>
 					<ul>
-						<li className="iconfont">&#xe603;</li>
+						<li className="iconfont">&#xe603;
+							<Link to={oPD} className="lianjie">
+							</Link>
+						</li>
 						<li>商品详情</li>
 						<li className="iconfont">&#xe622;</li>
 					</ul>
@@ -53,54 +96,9 @@ class Details extends React.Component{
 						</div>
 					</div>
 					<div className="details_content">
-						<div className="details_introduction">
-							<article>
-								<b>¥6948</b>
-								<del>¥9999</del>
-								<p>53°茅台飞天 500ml (6瓶装)</p>
-								<span>[特价商品,不能使用优惠券]茅台玉液,传世飞天</span>
-							</article>
-							<ul>
-								<li>
-									<em>优惠券</em>
-									<span>7张可领优惠券</span>
-									
-								</li>
-								<li>
-									<em>满额免</em>
-									<span>满额99免运费</span>
-									
-								</li>
-								<li>
-									<em>红包</em>
-									<span>满99送3个代金红包</span>
-									
-								</li>
-							</ul>
-						</div>
-						<div className="details_comment">
-							<summary>
-								商品评价
-								<span>
-									56
-								</span>
-							</summary>
-							<ul>
-								<li>
-									<p>13392617928</p>
-									<p>好评</p>
-									<span>2016.10.12 12.50.23</span>
-								</li>
-								<li>
-									<p>13392617928</p>
-									<p>好评</p>
-									<span>2016.10.12 12.50.23</span>
-								</li>
-							</ul>
-							<a>
-								全部评价
-							</a>
-						</div>
+						{dIntroduction}
+						{dComment}
+						
 						<div className="details_merchant">
 						</div>
 						<figcaption>
@@ -109,8 +107,7 @@ class Details extends React.Component{
 						<div className="details_information">
 							<figure>
 								<span>商品图文详情</span>
-								<img alt="" src="/img/d-01.jpg" />
-								<img alt="" src="/img/d-02.jpg" />
+								{dInformation}
 							</figure>
 						</div>
 						
@@ -119,8 +116,9 @@ class Details extends React.Component{
 				<footer>
 					<ul>
 						<li>
-							<i className="iconfont">&#xe730;</i>
-							购物车
+							<Link to="/cart" className="lianjie"></Link>
+								<i className="iconfont">&#xe730;</i>
+								购物车
 						</li>
 						<li>加入购物车</li>
 						<li>立即购买</li>
@@ -133,6 +131,7 @@ class Details extends React.Component{
 			</div>
 		)
 	}
+	
 
 	
 }
